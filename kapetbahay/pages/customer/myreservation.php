@@ -1,4 +1,4 @@
-<?php
+n<?php
 session_start();
 
 include "config.php";
@@ -107,7 +107,7 @@ mysqli_close($con);
                                 <th scope="col">Reservation #</th>
                                 <th scope="col">Date</th>
                                 <th scope="col">Time</th>
-                                <th scope="col">Table #</th>
+                                <th scope="col">Person #</th>
                                 <th scope="col">Note</th>
                                 <th scope="col">Status</th>
                                 <th scope="col">Actions</th>
