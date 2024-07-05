@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.nav-style{
+    background: transparent;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.nav-content{
+    padding-block: 8px;
+}
+
+.logo{
+    width: 120px;
+}
+
+img{
+    width: 100%;
+}
+
+.btns a{
+    color: #E6D3B3;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btns a:hover{ 
+    color:#E6D3B3;
+}
+.nav-link{
+    color: #fff!important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #E6D3B3!important;
+    font-weight: 700;
+    transform: scale(1.1);
+    border-bottom: 2px solid #E6D3B3;
+}
+
+li{
+    margin-inline: 10px;
+}
+/* NAVBAR END */
+
+/* FIRST SECTION - HERO */
+.hero{
+    margin-top: -74px;
+    background:url(../Images/header-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content{
+    height: 100vh;
+}
+
+.main-content{
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+.content h2 {
+    color: #fff;
+    width: 100%;
+}
+.content p {
+    color: #fff;
+    width: 90%;
+}
+
+.content-logo{
+    width: 500px;
+    margin-inline: 30px;
+}
+
+.btns{
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    border-style: none;
+    transition: 0.5s;
+}
+
+.main-btn{
+    background-color: transparent;
+    border: 2px solid #E6D3B3;
+    color: #E6D3B3;
+}
+
+.main-btn:hover{
+    background-color: #1F1107;
+    border: 2px solid #1F1107;
+}
+
+.sub-btn{
+    background-color: transparent;
+    border: 2px solid #1F1107;
+    color: #1F1107;
+}
+
+.sub-btn:hover{
+    background: #E6D3B3;
+    border: 2px solid #1F1107;
+    color: #1F1107;
+}
+
+/* BANNER END */
+
+/* PRODUCTS START */
+
+.prod{
+    background: linear-gradient(to bottom, rgba(61, 42, 26, 0.644), #180e0eba) ,url(../Images/products-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 100px 0;
+}
+
+.prod h2{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.prod-content{
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+}
+
+.content p {
+    color: #fff;
+    width: 90%;
+}
+
+.products{
+    height: 100%;
+}
+
+.products h4{
+    font-weight: 700;
+}
+
+.products-title > h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1F1107;
+}
+
+.products-title > p {
+    font-size: 18px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+
+.card{
+    width: 100%!important;
+    border: none!important;
+}
+
+.card-img-top{
+    width: 70%!important;
+    margin: auto;
+}
+
+
+.card-header{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 16px;
+    padding-inline: 40px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #1F1107!important;
+}
+
+.card-texts{
+    font-size: 14px;
+}
+
+.swiper{
+    height: 53%;
+}
+
+.space {
+    padding-top: 80px;
+}
+
+/* Footer */
+footer {
+background-color: #1F1107;
+margin-top: 100px;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.footer-content {
+font-size: 14px;
+}
+
+.footer-content p{
+    margin-bottom: 0;
+}
+
+/* ------------------ Location Page styling ------------------ */
+
+.hero-branches{
+    margin-top: -76px;
+    background: url(../Images/cofe.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.branch-img{
+    padding: 0!important;
+}
+
+.branch-container{
+    margin: 30px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.branches-content{
+    height: 50vh;
+}
+
+.other-branches .card{
+    box-shadow: 1px 1px 6px 1px #d8d8d8;
+    margin-block: 20px;
+}
+
+.main-content{
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+
+.content p {
+    color: #fff;
+    width: 90%;
+}
+
+.content-logo{
+    width: 200px;
+    margin-inline: 20px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+/* About */
+.hero-about{
+    margin-top: -74px;
+    background:url(../Images/about-banner.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-content{
+    height: 100vh;
+}
+
+.about-content > .content{
+    width: 100%;
+    color: #ffffff;
+}
+
+.content > h3{
+    font-size: 18px;
+}
+
+.start{
+    font-weight: 700;
+    color: #333;
+    font-size: 32px;
+    margin-block: 32px;
+}
+
+.container-content{
+    width: 80%;
+    margin: auto;
+}
+
+.values{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+.history-img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+    transition: 0.4s ease-in-out;
+}
+
+.history-img:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.mission, .vision {
+    width: 100%;
+}
+
+.values-item{
+    flex: 1;
+    font-weight: 600;
+}
+
+.texts{
+    font-weight: 500;
+}
+
+.achievements{
+    list-style: none;
+    padding: 0;
+}
+
+.achievements-item{
+    text-align: start;
+    margin: 10px 0;
+}
+
+/* Contacts */
+
+.hero-contact{
+    margin-top: -74px;
+    background:url(../Images/about-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contact-content{
+    height: 65vh;
+}
+
+.contact-content h4{
+    color: #fff;
+}
+
+.contact-section{
+    padding-top: 100px;
+}
+
+.contact-form, .contact-details{
+    flex: 1;
+}
+
+.contact-details{
+    padding-left: 50px;
+}
+
+.details h2{
+    font-weight: 600;
+}
+
+.contact-section input, .contact-section textarea{
+    box-shadow: inset 1px 1px 1px #0000002f;
+}
+
+.names{
+    justify-content: space-between;
+}
+
+.name{
+    width: 49%;
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #E6D3B3;
+}
+
+.navbar {
+    background-color: #3b2b26 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #e3a97f !important;
+}
+
+.nav-link.btn {
+    border-radius: 20px;
+}
+
+.container-fluid {
+    height: 100;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    height: 92vh;
+    border-right: 1px solid #fff;
+}
+
+.sidebar h4 {
+    color: #3b2b26;
+    font-weight: bold;
+}
+
+.sidebar p {
+    color: #3b2b26;
+}
+
+.sidebar hr {
+    border-color: #3b2b26;
+}
+
+.sidebar .nav-link {
+    color: #3b2b26;
+    font-weight: bold;
+}
+
+.sidebar .nav-link.active {
+    color: #3b2b26;
+}
+
+.sidebar .nav-link:hover {
+    color: #706c6a;
+}
+
+.nav-item {
+    color: #3b2b26;
+}
+.main-content {
+    padding: 50px;
+}
+
+.update-form {
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.update-form h2 {
+    margin-bottom: 30px;
+    color: #3b2b26;
+    font-weight: bold;
+}
+
+.update-form .form-group label {
+    color: #3b2b26;
+}
+
+.update-form .form-group input {
+    border-radius: 5px;
+}
+
+.update-form .btn {
+    border-radius: 5px;
+    background-color: #3b2b26;
+    color: #e3a97f;
+}
+
+.update-form .btn:hover {
+    background-color: #e3a97f;
+    color: #3b2b26;
+    border: 1px solid #3b2b26;
+}
+
+.delete-account {
+    display: block;
+    margin-top: 20px;
+    color: #6c757d;
+    text-align: center;
+}
+
+.delete-account:hover {
+    color: #7a1d00;
+}

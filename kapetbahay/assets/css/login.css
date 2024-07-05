@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3b2b26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../Images/bglogin\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container {
+    position: absolute;
+    /* Adjust this value to position the logo vertically */
+    left: 80px; /* Adjust this value to position the logo horizontally */
+    max-width: 100%; /* Adjust the size of the logo */
+    height: auto;
+}
+
+.logo-container img {
+    max-width: 5; /* Adjust the size as needed */
+    height: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffeee196;
+    padding: 80px;
+    border-radius: 10px;
+    margin-right: -45%; /* Adjust this value as needed */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #e3a97f;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b2b26;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p a {
+    color: #000;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
