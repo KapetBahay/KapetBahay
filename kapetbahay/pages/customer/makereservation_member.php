@@ -140,7 +140,7 @@ mysqli_close($con);
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="table">Table for How Many?</label>
+                            <label for="table">Kubo for How Many?</label>
                             <select class="form-control" id="table" name="table" required>
                                 <?php
                                 for ($i = 1; $i <= 15; $i++) {
