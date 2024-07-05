@@ -103,7 +103,7 @@ mysqli_close($con);
                                 <th scope="col">Customer</th>
                                 <th scope="col">Date</th>
                                 <th scope="col">Time</th>
-                                <th scope="col">Table #</th>
+                                <th scope="col">Number of People</th>
                                 <th scope="col">Note</th>
                                 <th scope="col">Request Date</th>
                                 <th scope="col">Status</th>
